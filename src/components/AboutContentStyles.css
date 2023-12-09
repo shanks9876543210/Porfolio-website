@@ -1,0 +1,18 @@
+.about{
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap ;
+    height: 100%;
+}
+.about .left{
+    text-align: center;
+    margin: 1rem 0;
+    padding: 1rem;
+    max-width: 340px;
+}
+.about .left p{
+    margin: 1.2rem 0;
+}
