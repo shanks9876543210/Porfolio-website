@@ -6,6 +6,7 @@ import Project from './routes/Project';
 import Contact from './routes/Contact';
 import About from './routes/About';
 import Home from './routes/Home';
+import UnderConstructionPage from './components/UnderConstructionPage';
 function App() {
   return (
  <>
@@ -16,6 +17,7 @@ function App() {
   <Route path='/project' element={ <Project />}/>
   <Route path='/contact' element={ <Contact />}/>
   <Route path='/about' element={ <About />}/>
+  <Route path='/underConstruction' element={ <UnderConstructionPage />}/>
 
   
 

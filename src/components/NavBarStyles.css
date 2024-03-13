@@ -10,6 +10,15 @@
 
 
 }
+.navbarSize{
+    font-size: 1.5rem;
+    
+
+}
+#nameSize{
+    font-size: 1.5rem;
+    margin-left: 30px;
+}
 .header-bg{
     background-color: rgb(0,0, .8);
     transition: .5s;
@@ -29,6 +38,7 @@
 }
 .hamburger{
     display: none;
+    margin-right: 20px;
 }
 @media screen and (max-width:1040px){
     .nav-menu{
@@ -57,5 +67,8 @@
     }
     .hamburger{
         display: initial;
+    }
+    #nameSize{
+        font-size: 1rem;
     }
 }
