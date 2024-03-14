@@ -4,6 +4,7 @@ import React from 'react'
 
 const HeroImg2 = (props) => {
   return (
+    
     <div className="hero-img">
       <div className="heading">
         <h1>
@@ -13,6 +14,7 @@ const HeroImg2 = (props) => {
       </div>
 
     </div>
+    
   )
 }
 

@@ -11,7 +11,7 @@ const Project = (props) => {
      <NavBar />
      <HeroImg2 heading="PROJECTS." text="Some of my recent project." />
      <WorkCard />
-     <Pricing />
+     {/* <Pricing /> */}
      <Footer />
     </div>
   )

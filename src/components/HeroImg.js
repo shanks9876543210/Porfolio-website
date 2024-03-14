@@ -9,7 +9,7 @@ const HeroImg = () => {
       <img className='intro-img' src={IntroImage} alt="front picture" />
       </div>
     <div className="content">
-        <p>Hi, I am developer.</p>
+        <p>Hi, I'm Binay Rai.</p>
         <h1>Django and React developer</h1>
         <div className="button">
             <Link to='/project' className='btn'> Project</Link>

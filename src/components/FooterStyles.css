@@ -22,11 +22,17 @@
 }
 .location{
     display: flex;
-    margin-bottom: .8rem;
+    margin-bottom: 1rem;
 
 }
 .location p{
-    line-height: 40px;
+    line-height: 70px;
+}
+.phone{
+    margin-bottom: 40px;
+}
+.email{
+    margin-top: 14px;
 }
 .right{
     height: 100%;

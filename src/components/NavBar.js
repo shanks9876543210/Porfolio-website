@@ -21,19 +21,19 @@ const handleClick=()=>
   return (
     <div className={color?'header header-bg':'header'}>
       <Link to="/">
-        <h3>Porfolio</h3>
+        <h3 id="nameSize">BINAY</h3>
       </Link>
       <ul className={click?"nav-menu active" : "nav-menu"}> 
-        <li>
+        <li class="navbarSize">
             <Link to='/'>Home</Link>
         </li>
-        <li>
+        <li className='navbarSize'>
             <Link to='/project'>Project</Link>
         </li>
-        <li>
+        <li className='navbarSize'>
             <Link to='/contact'>Contact</Link>
         </li>
-        <li>
+        <li className='navbarSize'>
             <Link to='/about'>About</Link>
         </li>
       </ul>
