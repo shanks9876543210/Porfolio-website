@@ -26,10 +26,10 @@ const WorkCard = () => {
             </div>
         </div>
         <div className="project-card">
-            <img src={pro1} alt="project Image" />
+            <img src={pro2} alt="project Image" />
             <h2 className="project-title">Blogpost-Blogposting Website Website</h2>
             <div className="project-details">
-                <p>Developed using Django. Implemented user authentication, blog listing having different categories,and login/logout functionality. Implemented interactive features including Like and Comment buttons for user engagement.</p>
+                <p>Developed using Django. Implemented user authentication, blog listing having different categories,and login/logout functionality.Implemented interactive features including Like and Comment buttons for user engagement.</p>
                 <div className="pro-btns">
                   
                     <NavLink className="btn"  to='/underConstruction'>View</NavLink>
@@ -38,7 +38,7 @@ const WorkCard = () => {
             </div>
         </div>
         <div className="project-card">
-            <img src={pro1} alt="project Image" />
+            <img src={pro3} alt="project Image" />
             <h2 className="project-title">Note app</h2>
             <div className="project-details">
                 <p>Developed using Django and React.js Implemented CRUD operations, real-time updates, and user authentication. Developed RESTful APIs for communication between frontend and backend.</p>

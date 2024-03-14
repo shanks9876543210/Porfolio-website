@@ -23,12 +23,13 @@
     padding: 1rem 0;
 }
 .project-details p{
-    font-size: 1.4rem;
+    
     padding: 0;
     margin: 0;
-    text-align: justify;
+   
 
 }
+
 .pro-btns{
     display: flex;
     justify-content: space-between;
