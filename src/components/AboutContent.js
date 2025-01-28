@@ -7,8 +7,7 @@ const AboutContent = () => {
     <div className='about'>
         <div className="left">
             <h1>Who am I?</h1>
-            <p>I'm Full Stack Web developer.I am currently seeking
-                 internship in django and react.js . </p>
+            <p>I'm Full Stack Web developer skilled in Django and React.</p>
                 <Link to='/contact'>
                     <button className="btn">Contact</button>
                 </Link>

@@ -1,8 +1,8 @@
 import './WorkCardStyles.css'
 import React from 'react'
-import pro1 from '../assets/project1.png'
-import pro2 from '../assets/project2.png'
-import pro3 from '../assets/project3.png'
+import pro1 from '../assets/p1.png'
+import pro2 from '../assets/p2.jpeg'
+import pro3 from '../assets/p3.jpeg'
 import pro4 from '../assets/project4.png'
 import { NavLink } from 'react-router-dom'
 import UnderConstructionPage from './UnderConstructionPage'
@@ -15,13 +15,14 @@ const WorkCard = () => {
 
         <div className="project-card">
             <img src={pro1} alt="project Image" />
-            <h2 className="project-title">Wholesale-Ecommerce Website</h2>
+            <h2 className="project-title">Dropit: 10 Min Grocery Delivery</h2>
             <div className="project-details">
-                <p>Developed from the ground up using React.js and Django. Implemented robust "Add to Cart" functionality using React Redux Toolkit. Created RESTful APIs using django. Integrated secure payment gateways (via Khalti).</p>
+            <p>Built secure and scalable RESTful APIs using Django. Created the company landing page and a comprehensive staff portal using Django templates for managing product,orders,rider, sales data, reports, and admin controls. Implemented AJAX for asynchronous operations and Django Channels with Redis for real-time updates and notifications. Integrated third-party APIs, including SMS API for OTP verification and Galli Map API for rider navigation.</p>
+
                 <div className="pro-btns">
                   
-                    <NavLink className="btn"  to='/underConstruction'>View</NavLink>
-                    <NavLink target='_blank' className="btn" to='https://github.com/shanks9876543210/E-commerce-website'>Source</NavLink>
+                    <NavLink className="btn"  to='https://www.dropit.com.np/'>View</NavLink>
+                    <NavLink target='_blank' className="btn" to='https://www.dropit.com.np/'>Source</NavLink>
                 </div>
             </div>
         </div>
