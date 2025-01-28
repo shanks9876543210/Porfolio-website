@@ -26,7 +26,7 @@ const Footer = () => {
         </div></div>  </div>
         <div className="right">
             <h4>About me</h4>
-            <p>I am currently seeking internship in django and react Js.I can create full stack website using django as backend,react Js as frontend and MySQL as database language.I am self learner and want to have professional experience in web developement. </p>
+            <p> Currently working on Quick Commerce app- Dropit : 10 Min Grocery Delivery as Junior Developer </p>
         <div className="social">
         
         
