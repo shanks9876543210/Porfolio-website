@@ -17,7 +17,7 @@ const WorkCard = () => {
             <img src={pro1} alt="project Image" />
             <h2 className="project-title">Dropit: 10 Min Grocery Delivery</h2>
             <div className="project-details">
-            <p>Built secure and scalable RESTful APIs using Django. Created the company landing page and a comprehensive staff portal using Django templates for managing product,orders,rider, sales data, reports, and admin controls. Implemented AJAX for asynchronous operations and Django Channels with Redis for real-time updates and notifications. Integrated third-party API, SMS API for OTP verification .</p>
+            <p>Built secure and scalable RESTful APIs using Django. Created the company landing page and a comprehensive staff portal using Django templates for managing product,orders,rider, sales data, reports, and admin controls. Implemented AJAX for asynchronous operations and Django Channels with Redis for real-time updates and notifications. Integrated third-party SMS API for OTP verification .</p>
 
                 <div className="pro-btns">
                   
