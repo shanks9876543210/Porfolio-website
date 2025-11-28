@@ -13,7 +13,7 @@ const WorkCard = () => {
       <div className="project-container">
 
 
-        <div className="project-card">
+        {/* <div className="project-card">
             <img src={pro1} alt="project Image" />
             <h2 className="project-title">Wholesale-Ecommerce Website</h2>
             <div className="project-details">
@@ -24,7 +24,7 @@ const WorkCard = () => {
                     <NavLink target='_blank' className="btn" to='https://github.com/shanks9876543210/E-commerce-website'>Source</NavLink>
                 </div>
             </div>
-        </div>
+        </div> */}
         <div className="project-card">
             <img src={pro2} alt="project Image" />
             <h2 className="project-title">Blogpost-Blogposting Website Website</h2>
