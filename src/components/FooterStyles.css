@@ -1,61 +1,88 @@
-.footer{
+.footer {
     width: 100%;
-    padding: 6rem 0;
-    background-color: rgba(19, 19, 19, .8);
+    padding: 4rem 2rem;
+    background-color: rgba(19, 19, 19, 0.9);
+    color: white;
 }
-.footer-container{
-    max-width:1140px;
-    margin:auto;
+
+.footer-container {
+    max-width: 1140px;
+    margin: auto;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 40px;
-
-
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
 }
-.left{
-    height: 100%;
-    max-width: 100%;
+
+.left, .right {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     padding: 1rem;
-
 }
-.location{
+
+.location, .phone, .email {
     display: flex;
+    align-items: center;
     margin-bottom: 1rem;
+}
 
-}
-.location p{
-    line-height: 70px;
-}
-.phone{
-    margin-bottom: 40px;
-}
-.email{
-    margin-top: 14px;
-}
-.right{
-    height: 100%;
-    max-width: 100%;
+.location h4, .phone h4, .email h4 {
     display: flex;
-    flex-direction: column;
-    padding: 1rem;
-}
-.social{
-    margin-top: 1rem;
-}
-h4{
+    align-items: center;
+    margin: 0;
     font-size: 1.2rem;
-    padding-bottom: .7rem;
+}
 
+.location h4 svg,
+.phone h4 svg,
+.email h4 svg {
+    margin-right: 1rem;
 }
-p{
-    font-size: 1.2rem;
+
+.right h4 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
 }
-@media screen and (max-width:640px) {
-    .footer-container{
-      
+
+.right p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.social {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.social a {
+    color: white;
+    margin-right: 1rem;
+    transition: transform 0.3s;
+}
+
+.social a:hover {
+    transform: scale(1.2);
+}
+
+/* Responsive */
+@media screen and (max-width: 640px) {
+    .footer-container {
         grid-template-columns: 1fr;
-       
-}
+        text-align: left;
+        gap: 20px;
+    }
+
+    .left, .right {
+        padding: 0;
+    }
+
+    .location, .phone, .email {
+        flex-direction: row;
+        margin-bottom: 0.8rem;
+    }
+
+    .social {
+        justify-content: flex-start;
+    }
 }

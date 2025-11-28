@@ -18,42 +18,83 @@
     top: 0;
     left: 0;
     background-color: black;
-    opacity: .8;
-
+    opacity: 0.8;
 }
+
 .hero{
     width: 100%;
     height: 100%;
 }
+
 .hero .content{
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-
+    left: 10%; /* move content to left */
+    transform: translateY(-50%); /* vertical centering only */
+    text-align: left; /* align text left */
+    max-width: 500px; /* optional width */
 }
+
 .hero .content h1{
     font-size: 3rem;
-    padding: .8rem 0 1.5rem;
+    padding: 0.8rem 0 1.5rem;
 }
+
 .hero .content p{
-    font-size: 1.7 rem;
+    font-size: 1.7rem; /* fixed typo (was 1.7 rem) */
     font-weight: 400;
     text-transform: uppercase;
 }
+
 .content .btn{
-    margin: 1rem .2rem;
-}
-@media screen and (max-width:640px){
-    .hero .content h1{
-        font-size: 2rem;
-       
-    }
-    .hero .content p{
-        font-size: 1.4 rem;
-        
-    }
-    
+    margin: 1rem 0.2rem;
 }
 
+/* Buttons layout */
+.content .button{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start; /* align buttons left */
+}
+
+/* Responsive */
+@media screen and (max-width: 640px){
+    .hero .content h1{
+        font-size: 2rem;
+    }
+    .hero .content p{
+        font-size: 1.4rem; /* fixed typo (was 1.4 rem) */
+    }
+    .hero .content{
+        left: 5%;
+        max-width: 90%;
+    }
+}
+
+/* Fade + Slide animation */
+@keyframes fadeSlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.content {
+    opacity: 0;
+    animation: fadeSlideUp 1.2s ease-out forwards;
+    animation-delay: 0.3s;
+}
+
+.button {
+    opacity: 0;
+    animation: fadeSlideUp 1s ease-out forwards;
+    animation-delay: 0.7s;
+}
+
+h1, p {
+    animation: fadeSlideUp 1.2s ease-out forwards;
+}

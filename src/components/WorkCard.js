@@ -1,6 +1,6 @@
 import './WorkCardStyles.css'
 import React from 'react'
-import pro1 from '../assets/p1.png'
+import pro1 from '../assets/p1.jpg'
 import pro2 from '../assets/p2.jpeg'
 import pro3 from '../assets/p3.jpeg'
 import pro4 from '../assets/project4.png'
@@ -15,14 +15,14 @@ const WorkCard = () => {
 
         <div className="project-card">
             <img src={pro1} alt="project Image" />
-            <h2 className="project-title">Dropit: 10 Min Grocery Delivery</h2>
+            <h2 className="project-title">Fasto: Anything in 10 Minutes</h2>
             <div className="project-details">
-            <p>Built secure and scalable RESTful APIs using Django. Created the company landing page and a comprehensive staff portal using Django templates for managing product,orders,rider, sales data, reports, and admin controls. Implemented AJAX for asynchronous operations and Django Channels with Redis for real-time updates and notifications. Integrated third-party SMS API for OTP verification .</p>
+            <p>Built secure and scalable RESTful APIs using Django. Created comprehensive staff portal using Django templates for managing product,orders,rider, sales data, reports, and admin controls. Implemented AJAX for asynchronous operations and Django Channels with Redis for real-time updates and notifications. Integrated third-party SMS API for OTP verification .</p>
 
                 <div className="pro-btns">
                   
-                    <NavLink className="btn"  to='https://www.dropit.com.np/'>View</NavLink>
-                    <NavLink target='_blank' className="btn" to='https://www.dropit.com.np/'>Source</NavLink>
+                    <NavLink className="btn"  to='https://www.fasto.com.np/'>View</NavLink>
+                    {/* <NavLink target='_blank' className="btn" to='https://www.dropit.com.np/'>Source</NavLink> */}
                 </div>
             </div>
         </div>
