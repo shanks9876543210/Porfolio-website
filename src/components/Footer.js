@@ -15,18 +15,18 @@ const Footer = () => {
       
         <div className="phone">
         <h4> <FaPhone size={20} style={{color:"white",marginRight:"2rem"}}  />
-        9818207179 , 9768400312
+        9818207179
            </h4>
-       
+       </div>
         <div className="email">
         <h4> <FaMailBulk size={20} style={{color:"white",marginRight:"2rem"}}  />
         raibinay421@gmail.com
            </h4>
            
-        </div></div>  </div>
+        </div>  </div>
         <div className="right">
             <h4>About me</h4>
-            <p>I am currently seeking internship in django and react Js.I can create full stack website using django as backend,react Js as frontend and MySQL as database language.I am self learner and want to have professional experience in web developement. </p>
+            <p> Currently working on Nepal's First Quick Commerce app- Fasto :  Anything in 10 Minutes as Backend Developer. </p>
         <div className="social">
         
         
