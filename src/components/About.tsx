@@ -42,7 +42,7 @@ export default function About() {
         >
           <span className="font-mono text-accent text-sm tracking-widest uppercase">01 / About</span>
           <h2 className="font-display font-bold text-5xl md:text-6xl text-white mt-3">
-            Engineering at Scale
+            Building Reliable Backend Systems
           </h2>
         </motion.div>
 
@@ -57,7 +57,7 @@ export default function About() {
 
               "I enjoy designing backend solutions that are maintainable, scalable, and easy to operate. From database design and API development to workflow automation and production debugging, I like understanding how different parts of a system work together to support business operations.",
 
-              "Outside of software development, I am a national-level chess player. Chess has helped me develop analytical thinking, structured problem-solving, and the ability to evaluate complex situations — skills that translate naturally into backend engineering and system design."
+              "Outside of software development, I am a national-level chess player. Competitive chess has strengthened my analytical thinking, strategic planning, and problem-solving abilities. The discipline of evaluating complex positions and making decisions under pressure translates naturally to backend development, system design, and software architecture.",
 
               
             ].map((text, i) => (
@@ -113,13 +113,12 @@ export default function About() {
             >
               <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent" />
               <span className="font-mono text-xs text-primary/60 tracking-widest uppercase block mb-3">
-                Engineering Philosophy
-              </span>
-              <p className="text-white/80 text-sm leading-relaxed italic">
-                "Build systems that work when you're not looking. Design for failure,
-                optimize for readability, and always think about the operator who has
-                to debug this at 2 AM."
-              </p>
+              Development Philosophy
+            </span>
+
+            <p className="text-white/80 text-sm leading-relaxed italic">
+              "Good software is not just about solving today's problem. It's about building systems that remain reliable, maintainable, and easy to understand as they evolve."
+            </p>
             </motion.div>
 
             {/* Current status */}

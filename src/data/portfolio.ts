@@ -1,6 +1,6 @@
 export const personalInfo = {
   name: 'Binay Rai',
-  titles: ['Backend Developer', 'Django Developer', 'Software Engineer'],
+  titles: ['Backend Developer', 'Python Developer', 'Django Developer'],
   location: 'Kathmandu, Nepal',
   website: 'binayrai.com.np',
   email: 'raibinay421@gmail.com',

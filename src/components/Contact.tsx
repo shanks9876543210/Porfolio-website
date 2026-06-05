@@ -87,7 +87,7 @@ export default function Contact() {
             Let's Work Together
           </h2>
           <p className="text-muted mt-4 max-w-lg">
-            Open to new opportunities — full-time roles, contract work, or just a great engineering conversation.
+          Open to full-time opportunities, freelance projects, and meaningful conversations about technology and software development.
           </p>
         </motion.div>
 
